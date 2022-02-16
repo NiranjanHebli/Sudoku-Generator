@@ -30,5 +30,5 @@ A short demo:
 
 ## Feedback
 
-If you have any feedback, please reach out to us at niranjanhebli77@gmail.com
+If you have any feedback, please reach out to us at heyhecker625@gmail.com
 
