@@ -18,7 +18,7 @@ https://niranjanhebli.github.io/Sudoku-Generator/
 ## Features
 
 - Light/dark mode toggle
-- Various modes
+- Various difficulty levels
 - Interactive interface
 
 
