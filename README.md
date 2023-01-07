@@ -38,11 +38,11 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /
+\- url: /
   static_files: www/index.html
   upload: www/index.html
 
-- url: /(.*)
+\- url: /(.*)
   static_files: www/\1
   upload: www/(.*)
   
