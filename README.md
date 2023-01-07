@@ -28,7 +28,5 @@ A short demo:
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/84934990/154282602-c2237c2b-99ec-4820-8e89-9515d6afec99.gif)
 
-## Feedback
 
-If you have any feedback, please reach out to us at heyhecker625@gmail.com
 
