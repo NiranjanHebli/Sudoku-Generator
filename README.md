@@ -34,21 +34,20 @@ First step, you have to enable App Engine Admin API in your Project,After enabli
 
 Second step,open the Text Editor and create a new directory www and add the project folders and files in it.In the root directory create a file with .yaml extension and add the following code in it:
 
-runtime: python27
-api_version: 1
-threadsafe: true
+runtime: python27                             
+api_version: 1                                  
+threadsafe: true                      
 
-handlers:
-\- url: /
-  static_files: www/index.html
-  upload: www/index.html
-  
-\- url: /(.*)
+handlers:                      
+\- url: /                      
+  static_files: www/index.html                              
+  upload: www/index.html                               
+   
+\- url: /(.*)                       
   static_files: www/\1
   upload: www/(.*)
   
   
-
 Third step,run the following commands:
 gcloud app deploy                              
 gcloud app browse
