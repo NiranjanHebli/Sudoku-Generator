@@ -33,7 +33,7 @@ A short demo:
 First step, you have to enable App Engine Admin API in your Project,After enabling the API go to Cloud Shell and write the Command gcloud app create
 
 Second step,open the Text Editor and create a new directory www and add the project folders and files in it.In the root directory create a file deploy.yaml add the following code in it:
-
+```
 runtime: python27                             
 api_version: 1                                  
 threadsafe: true                      
@@ -47,7 +47,7 @@ handlers:
   static_files: www/\1
   upload: www/(.*)
   
-  
+  ```
 Third step,run the following commands:
 gcloud app deploy deploy.yaml                              
 gcloud app browse                              
