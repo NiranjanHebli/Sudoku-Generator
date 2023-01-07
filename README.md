@@ -28,5 +28,27 @@ A short demo:
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/84934990/154282602-c2237c2b-99ec-4820-8e89-9515d6afec99.gif)
 
+## How to Deploy On Google Cloud?
 
+First step, you have to enable App Engine Admin API in your Project,After enabling the API go to Cloud Shell and write the Command gcloud app create
 
+Second step,open the Text Editor and create a new directory www and add the project folders and files in it.In the root directory create a file with .yaml extension and add the following code in it:
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
+  
+
+Third step,run the following commands:
+gcloud app deploy
+gcloud app browse
+
+There you go :D
