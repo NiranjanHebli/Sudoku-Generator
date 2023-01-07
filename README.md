@@ -50,7 +50,7 @@ handlers:
   
 Third step,run the following commands:
 gcloud app deploy deploy.yaml                              
-gcloud app browse
+gcloud app browse                              
 (remember to run this commands in the root directory)
 
 There you go :D
