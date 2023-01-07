@@ -31,7 +31,10 @@ A short demo:
 ## How to Deploy On Google Cloud?
 
 First step, you have to enable App Engine Admin API in your Project,After enabling the API go to Cloud Shell and write the Command:
- ```gcloud app create```
+ ```
+ gcloud app create
+ 
+ ```
 
 Second step,open the Text Editor and create a new directory www and add the project folders and files in it.In the root directory create a file deploy.yaml add the following code in it:
 ```
@@ -51,8 +54,12 @@ handlers:
  ```
 Third step,run the following commands:
 
-```gcloud app deploy deploy.yaml                              
-   gcloud app browse```                              
+```
+gcloud app deploy deploy.yaml                              
+
+gcloud app browse
+
+```                              
 (remember to run this commands in the root directory)
 
 There you go :D
