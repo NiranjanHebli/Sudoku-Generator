@@ -3,7 +3,7 @@
 
 In this project I have implemented a sudoku generator using javascript.For the frontend I have used some basic CSS integrated with JS to make it very interactive.The project is deployed in the form of a game so you can try solving the generated puzzle on the site whose link is given below:
 
-Deployed using Gcloud: https://sunny-caldron-373813.ue.r.appspot.com/
+Deployed using Gcloud: https://sunny-caldron-373813.ue.r.appspot.com/                                                                                                      
 Deployed on Github Pages:https://github.com/NiranjanHebli/Sudoku-Generator/deployments/activity_log?environment=github-pages
 
 ## Screenshots
